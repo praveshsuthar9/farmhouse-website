@@ -112,7 +112,6 @@
   width: 200px;
 }
 .card-container {
-  padding-bottom: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
