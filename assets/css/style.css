@@ -1,107 +1,156 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-:root{
-    --black-color: #000000;
-    --white-color:#ffffff;
-    --gray-color:gray;
-    --green-color :#0c3b2e;
+:root {
+  --black-color: #000000;
+  --white-color: #ffffff;
+  --gray-color: gray;
+  --green-color: #0c3b2e;
 }
 
-.navbar{
-    background-color: var(--green-color) !important;
+.navbar {
+  background-color: var(--green-color) !important;
 }
 
-.navbar-brand img{
-    width: 60px;
+.navbar-brand img {
+  width: 60px;
 }
 
-.home-banner-section{
- 
+.home-banner-section {
 }
 .owl-carousel .item {
-    margin: 0 !important;
-    padding: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
-.owl-carousel .item{
-    position: relative;
-   
+.owl-carousel .item {
+  position: relative;
 }
 
-.hero-title h1{
-    font-size: 40px;
-    font-weight: bold;
-    color: var(--green-color);
-    padding-bottom: 10px;
-    margin-bottom: 30px;
-    position: relative;
-    display: inline-block;
+.hero-title h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: var(--green-color);
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  display: inline-block;
 }
 
-.hero-title h1::after{
-content: '';
-position: absolute;
-bottom: 0px;
-left: 0px;
-width: 50%;
-height: 6px;
-background-color: var(--green-color);
-border-radius: 30px;
+.hero-title h1::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 50%;
+  height: 6px;
+  background-color: var(--green-color);
+  border-radius: 30px;
 }
 
-.owl-carousel .item .home-content{
-    position: absolute;
-    width: 100%;
-    height: 650px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    z-index: 1;
-    color: var(--white-color);
-    border-radius: 30px;
+.owl-carousel .item .home-content {
+  position: absolute;
+  width: 100%;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  z-index: 1;
+  color: var(--white-color);
+  border-radius: 30px;
 }
 
-
-.home-title{
-    width: 600px;
+.home-title {
+  width: 600px;
 }
-.home-title h2{
-    font-size: 40px;
-    font-weight: bold;
+.home-title h2 {
+  font-size: 40px;
+  font-weight: bold;
 }
 .owl-carousel .item img {
-    width: 100% !important;
-    height: 650px;
-    display: block;
-    margin: 0;
-    padding: 0;
-    object-fit: cover;
-    opacity: 0.5;
+  width: 100% !important;
+  height: 650px;
+  display: block;
+  margin: 0;
+  padding: 0;
+  object-fit: cover;
+  opacity: 0.5;
 }
-.testimonials{
-    color: var(--white-color);
-    background-color:var(--green-color);
-}
-
-.footer{
-    background-color:var(--green-color);
+.testimonials {
+  color: var(--white-color);
+  background-color: var(--green-color);
 }
 
-@media screen and (max-width:768px) {
-    .home-title{
-        width: auto;
-        padding: 0px 10px;
-    }
-    .hero-title{
-        margin-bottom: 20px;
-    }
-    .hero-title h1{
-        font-size: 26px;
-    }
+.card {
+  background: #fff;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  margin: 10px 0 5px;
+  font-size: 20px;
+}
+
+.card p {
+  color: #555;
+}
+.rooms-carousel {
+  width: 200px;
+}
+.card-container {
+  padding-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  padding: 0px;
+}
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card .btn {
+  background-color: var(--green-color);
+  border: 1px solid var(--green-color);
+}
+
+.card .btn:hover {
+  background-color: transparent;
+  border: 1px solid var(--green-color);
+  color: var(--green-color);
+}
+
+.footer {
+  background-color: var(--green-color);
+}
+
+@media screen and (max-width: 768px) {
+  .home-title {
+    width: auto;
+    padding: 0px 10px;
+  }
+  .hero-title {
+    margin-bottom: 20px;
+  }
+  .hero-title h1 {
+    font-size: 26px;
+  }
 }
