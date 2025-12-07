@@ -88,3 +88,16 @@ border-radius: 30px;
 .footer{
     background-color:var(--green-color);
 }
+
+@media screen and (max-width:768px) {
+    .home-title{
+        width: auto;
+        padding: 0px 10px;
+    }
+    .hero-title{
+        margin-bottom: 20px;
+    }
+    .hero-title h1{
+        font-size: 26px;
+    }
+}
